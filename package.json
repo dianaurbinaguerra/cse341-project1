@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/dianaurbinaguerra/cse341-project1#readme",
   "dependencies": {
+    "body": "^5.1.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongodb": "^7.4.0"
+    "mongodb": "^7.4.0",
+    "parser": "^0.1.4"
   }
 }

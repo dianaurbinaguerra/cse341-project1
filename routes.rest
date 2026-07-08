@@ -1,0 +1,37 @@
+### Get all users
+GET http://localhost:8080/users
+
+### Get one user by ID
+GET http://localhost:8080/users/6a48039f9a077235d30508d7
+
+### Get all users - Render
+GET https://cse341-project1-0ttc.onrender.com/users
+
+### Get one user by ID - Render
+GET https://cse341-project1-0ttc.onrender.com/users/6a4803369a077235d30508d3
+
+### Create user 
+POST http://localhost:8080/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "ashley.murphy@example.com",
+  "username": "ashleym",
+  "name": "Ashley Murphy",
+  "ipaddress": "192.168.1.1"
+}
+
+### Put user
+PUT http://localhost:8080/users/6a48039f9a077235d30508d7 HTTP/1.1
+Content-Type: application/json
+
+{
+    
+  "email": "m.lopez@example.com",
+  "username": "mlopez",
+  "name": "Maria Lopez",
+  "ipaddress": "172.16.5.88"
+  }
+
+### Delete user
+DELETE http://localhost:8080/users/6a4de5542cc05c9590da389f HTTP/1.1  
