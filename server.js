@@ -1,7 +1,11 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongodb = require('./data/database')
+// added for the .env file
+require("dotenv").config();
+//
 const app = express();
+
 
 const port = process.env.PORT || 8080;
 
